@@ -169,7 +169,7 @@ public class Fp03 {
     public static boolean uzunlugu12denAzMi(List<String> list){
 
         return list.stream().allMatch(t->t.length()<12);
-
+       //
         // Uzunlugu12denAzMi :true
         // anyMath herhangi biri demek anlaminda herhangi biri karsiliyorsa ,uyuyorsa
     }
